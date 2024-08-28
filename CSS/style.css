@@ -12,7 +12,7 @@ body {
   align-items: center;
   background: linear-gradient(to top, #641f6f, #1e0c21);
   border-radius: 15px;
-  padding: 15px;
+  padding: 0.93rem;
 }
 .sub-container1 {
   margin: auto;
@@ -20,23 +20,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 0.62rem;
 }
 .title {
   font-family: "Handjet";
-  letter-spacing: 4px;
-  word-spacing: 10px;
-  font-size: 40px;
+  letter-spacing: 0.25rem;
+  word-spacing: 0.62rem;
+  font-size: 2.5rem;
   color: #fecd23;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .sub-title {
   color: #f7ecd6;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 0.62rem;
   text-align: center;
 }
 .sub-container2{
@@ -50,20 +50,20 @@ body {
 }
 .sub-title2{
   color: #cccccc;
-  font-size: 22px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  font-size: 1.37rem;
+  margin-top: 0.62rem;
+  margin-bottom: 1.25rem;
   font-weight: 600;
 }
 input{
   width: 70%;
-  height: 22px;
-  margin: 10px;
+  height: 1.25rem;
+  margin: 0.62rem;
   border-radius: 5px;
-  padding: 5px;
+  padding: 0.31rem;
   border: 0;
-  font-size: 16px;
-  padding-left: 8px;
+  font-size: 1rem;
+  padding-left: 0.5rem;
 }
 input:focus{
   outline: none;
@@ -72,14 +72,14 @@ input:focus{
 input::placeholder {
   color: #888; 
   font-style: italic; 
-  padding-left: 2px;
+  padding-left: 0.12rem;
 }
 .container-games{
   display: flex;
   justify-content: space-around;
   color: white;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .games{
   display: flex;
@@ -90,18 +90,18 @@ input::placeholder {
   border-left: 8px solid #2637DB;
   border-right: 8px solid #2637DB;
   border-bottom: 8px solid #2637DB;
-  margin: 10px;
+  margin: 0.62rem;
   border-radius: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 button{
-  padding-top: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 10px;
+  padding-top: 0.62rem;
+  padding-left: 1.56rem;
+  padding-right: 1.56rem;
+  padding-bottom: 0.62rem;
   color:#cccccc;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #1D0C20;
   font-weight: 700;
   border-radius: 5px;
