@@ -3,24 +3,30 @@
 body {
   background-color: #cccccc;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
 }
 .container {
   width: 700px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(to top, #641f6f, #1e0c21);
   border-radius: 15px;
-  padding: 0.93rem;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0;
 }
 .sub-container1 {
-  margin: auto;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0.62rem;
+  padding: 10px;
 }
 .title {
   font-family: "Handjet";
@@ -40,13 +46,14 @@ body {
   text-align: center;
 }
 .sub-container2{
-  width: 93%;
+  width: 90%;
   background: linear-gradient(to bottom, #641f6f, #1e0c21);
   border-radius: 15px;
   border: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 .sub-title2{
   color: #cccccc;
@@ -54,6 +61,7 @@ body {
   margin-top: 0.62rem;
   margin-bottom: 1.25rem;
   font-weight: 600;
+  padding: 0.62rem;
 }
 input{
   width: 70%;
@@ -76,10 +84,15 @@ input::placeholder {
 }
 .container-games{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  width: 90%;
   color: white;
   font-weight: 700;
   font-size: 1.25rem;
+  padding: 0.93rem;
+
 }
 .games{
   display: flex;
@@ -105,4 +118,19 @@ button{
   background-color: #1D0C20;
   font-weight: 700;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  html{
+    font-size: 14px;
+  }
+  .title{
+    text-align: center;
+  }
+  .container-games{
+    flex-direction: column;
+  }
+  .games{
+    width: 93%;
+  }
 }
